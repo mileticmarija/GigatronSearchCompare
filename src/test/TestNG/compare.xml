@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Gigatron uporedi dva mobilna telefona">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="url" value="https://gigatron.rs/uporedi"/>
+    <parameter name="data" value="motorola"/>
+    <parameter name="item1" value="1"/>
+    <parameter name="item2" value="2"/>
+    <test name="Uporedi prve dve motorole">
+        <classes>
+            <class name="test_classes.CompareTests"/>
+        </classes>
+    </test>
+</suite>
